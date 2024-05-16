@@ -1,38 +1,74 @@
-.App {
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.App{
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+  overflow: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.input-box{
+  display: flex;
+  gap: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.btn{
+  width: 100px;
+  cursor: pointer;
+  outline: none;
+  border-color: transparent;
+  background-color: #63D7B0;
+  border-radius: 3px;
+  font-family: "Poppins", sans-serif;
+  
+}
+
+.btn:hover{
+  color: #265f4f;
+  transition: ease-in 9ms;
+  box-shadow: rgba(0, 0, 0, 0.8) 0px 0px 5px;
+}
+
+p{
+  text-align: center;
+}
+
+#input{
+  width: 300px;
+  font-size: 1rem;
+  padding: 3px;
+  outline-color:#4dbf9f ;
+}
+
+.post-card{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  gap: 5px;
+  width: 300px;
+  height: 400px;
+}
+
+.post-container{
+  padding: 20px;
+  overflow: hidden;
+  box-sizing: border-box;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 100%;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.backdrop{
+  position: absolute;
+  left: 50%;
 }
