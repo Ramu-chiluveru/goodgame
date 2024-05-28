@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/goodgame/static/css/main.55653bff.css",
+    "main.js": "/goodgame/static/js/main.aa7ecb8b.js",
+    "static/js/453.b7dc391a.chunk.js": "/goodgame/static/js/453.b7dc391a.chunk.js",
+    "index.html": "/goodgame/index.html",
+    "main.55653bff.css.map": "/goodgame/static/css/main.55653bff.css.map",
+    "main.aa7ecb8b.js.map": "/goodgame/static/js/main.aa7ecb8b.js.map",
+    "453.b7dc391a.chunk.js.map": "/goodgame/static/js/453.b7dc391a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.55653bff.css",
+    "static/js/main.aa7ecb8b.js"
+  ]
+}
